@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductImage should render with image 1`] = `
+<img
+  alt="Product"
+  className="productImg test-class"
+  src="https://test-image.png"
+  style={
+    Object {
+      "borderRadius": "5px",
+    }
+  }
+/>
+`;
+
+exports[`ProductImage should show image of product 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    alt="Product"
+    className="productImg undefined"
+    src="/assets/coffee-mug.png"
+  />
+</div>
+`;
